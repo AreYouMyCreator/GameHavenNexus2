@@ -1,0 +1,104 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #6a1b9a; /* Purple */
+}
+
+/* Header Styles */
+header {
+  background-color: #6a1b9a; /* Purple */
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+header h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px;
+  background-color: #f3e5f5; /* Light Purple */
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.intro h2 {
+  font-size: 2.5em;
+  color: #6a1b9a; /* Purple */
+}
+
+.intro p {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.articles {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.article {
+  background-color: #fff;
+  border: 2px solid #6a1b9a; /* Purple border */
+  padding: 20px;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.article h3 {
+  font-size: 1.8em;
+  color: #6a1b9a; /* Purple */
+}
+
+.article p {
+  font-size: 1.1em;
+  color: #555;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #6a1b9a; /* Purple */
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .articles {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .article {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
